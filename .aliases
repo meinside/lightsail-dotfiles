@@ -1,0 +1,7 @@
+# .aliases
+#
+# created by meinside@gmail.com
+# last update: 2019.07.02.
+
+alias ll="ls -alF"
+

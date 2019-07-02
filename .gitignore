@@ -1,0 +1,127 @@
+# git ignore file of meinside@gmail.com
+# last update: 2019.07.02.
+
+# unnecessary binary files
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.class
+
+# swap files
+*.swp
+*~.nib
+
+# cache files/dirs
+.cache
+
+# other scm files
+.cvs
+.svn
+
+# osx files
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DS_Store
+Network Trash Folder
+Temporary Items
+
+# temp files/dirs
+backups/
+tmp/
+.rpi-firmware
+
+# dart files/dirs
+.dart/
+.dartServer/
+.pub-cache/
+
+# go files/dirs
+.gogets
+.gore/
+
+# node files/dirs
+.npm
+node
+node_modules
+
+# ruby files/dirs
+.bundle
+.bundler
+.rvm/
+
+# rust files/dirs
+.cargo/
+.multirust
+.rustup/
+
+# python files/dirs
+.pip/
+.virtualenvs/
+
+# other src files
+public_html
+srcs
+
+# X files
+.dbus/
+.local/
+.xsession-errors
+.Xauthority
+
+# private/config files & dirs
+.aptitude/
+.aws/
+.config/
+.custom_aliases
+.docker/
+.elinks/
+.gist-vim
+.gitconfig
+.gtmx.json
+.gnupg
+.oh-my-zsh/
+
+# history files
+.*history
+.dbshell
+.nvimlog
+.oracle_jre_usage/
+.psql_history*
+.wget-hsts
+
+# etc. files/dirs
+.bash_logout
+.fontconfig/
+.gem
+.httpie/
+.keras/
+.lein/
+.lesshst
+.lnav/
+.m2/
+.ngrok2/
+.profile
+.qws
+.rnd
+.ssh
+.subversion
+.vim
+.viminfo
+.vimrc.lowperf
+.w3m/
+.zcompdump*
+.zsh-update
+mbox
+pprof/
+
+# data dir
+files/
+
