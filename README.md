@@ -18,6 +18,20 @@ then this repository will be cloned to the user's home directory.
 
 ## Configure
 
+### make swap
+
+```bash
+$ sudo dd if=/dev/zero of=/swapfile bs=1024 count=1M
+$ sudo chmod 0600 /swapfile
+$ sudo mkswap /swapfile
+```
+
+and append following line to `/etc/fstab`:
+
+```
+/swapfile swap swap defaults 0 0
+```
+
 ### install essential packages
 
 ```bash
