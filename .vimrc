@@ -1,9 +1,14 @@
 " meinside's .vimrc file,
 " created by meinside@gmail.com,
 "
-" last update: 2019.06.25.
+" last update: 2019.07.02.
 "
 " XXX - change default text editor:
+" $ sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+" $ sudo update-alternatives --config vi
+" $ sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+" $ sudo update-alternatives --config vim
+" $ sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 " $ sudo update-alternatives --config editor
 "
 " XXX - setup for nvim:
