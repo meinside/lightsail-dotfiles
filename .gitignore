@@ -1,5 +1,5 @@
 # git ignore file of meinside@gmail.com
-# last update: 2019.07.02.
+# last update: 2019.11.01.
 
 # unnecessary binary files
 *.o
@@ -113,6 +113,7 @@ srcs
 .rnd
 .ssh
 .subversion
+.sudo_as_admin_successful
 .vim
 .viminfo
 .vimrc.lowperf
