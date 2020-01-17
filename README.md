@@ -3,7 +3,7 @@ by Sungjin Han <meinside@gmail.com>
 
 ## Description
 
-My personal dot/config files for Lightsail instance.
+My personal dot/config files for Lightsail (or Oracle Cloud) instances based on Ubuntu LTS images.
 
 ---
 
