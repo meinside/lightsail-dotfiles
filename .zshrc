@@ -1,7 +1,7 @@
 # .zshrc
 #
 # created on 2014.06.30.
-# updated on 2019.06.25.
+# updated on 2020.01.20.
 #
 # ... by meinside@gmail.com
 #
@@ -73,8 +73,10 @@ fi
 
 # aliases
 . ~/.aliases
-if [ -f ~/.custom_aliases ]; then
-    . ~/.custom_aliases
+
+# load custom environment variables (like GOPRIVATE, PATH, alias, ...) if exist
+if [ -f ~/.custom_env ]; then
+    . ~/.custom_env
 fi
 
 ######################
