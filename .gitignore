@@ -1,5 +1,5 @@
 # git ignore file of meinside@gmail.com
-# last update: 2019.11.01.
+# last update: 2020.01.20.
 
 # unnecessary binary files
 *.o
@@ -80,7 +80,7 @@ srcs
 .aptitude/
 .aws/
 .config/
-.custom_aliases
+.custom_env
 .docker/
 .elinks/
 .gist-vim
